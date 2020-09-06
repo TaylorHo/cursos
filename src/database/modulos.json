@@ -1,0 +1,14 @@
+{
+  "01": {
+    "name": "Módulo 01",
+    "img": "caminho/da/imagem"
+  },
+  "02": {
+    "name": "Módulo 02",
+    "img": "caminho/da/imagem"
+  },
+  "03": {
+    "name": "Módulo 03",
+    "img": "caminho/da/imagem"
+  }
+}

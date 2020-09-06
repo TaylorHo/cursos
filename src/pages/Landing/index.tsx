@@ -29,9 +29,6 @@ function Landing() {
                     Ser Aluno
                 </Link>
             </div>
-            <span className="regulamento">
-                <a>Entenda como funciona*</a>
-            </span>
         </div>
     </div>
     );

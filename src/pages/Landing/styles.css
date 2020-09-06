@@ -78,24 +78,16 @@
   background: var(--color-secundary-dark);
 }
 
-.regulamento {
-  font-size: 1.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-line-in-white);
-}
-
 @media (min-width: 1100px){
   #page-landing-content {
       max-width: 1100px;
 
       display: grid;
       grid-template-rows: 350px 1fr;
-      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-columns: 2fr 2fr;
       grid-template-areas: 
-          "logo hero hero"
-          "buttons buttons total"
+          "logo hero"
+          "buttons hero"
       ;
   }
   .logo-container {
@@ -111,6 +103,7 @@
   .hero-image {
       grid-area: hero;
       justify-self: end;
+      align-self: center;
   }
   .buttons-container {
       grid-area: buttons;
@@ -118,9 +111,5 @@
   }
   .buttons-container a {
       font-size: 2.4rem;
-  }
-  .regulamento {
-      grid-area: total;
-      justify-content: initial;
   }
 }

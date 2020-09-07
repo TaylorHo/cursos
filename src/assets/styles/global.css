@@ -2,8 +2,8 @@
   font-size: 60%;
 
   --color-background: #F0F0F7;
-  --color-primary-lighter: #00a3e4;
-  --color-primary-light: #02bbcc;
+  --color-primary-lighter: #00a8eb;
+  --color-primary-light: #01bddf;
   --color-primary: #1C1B29;
   --color-primary-dark: #774DD6;
   --color-primary-darker: #6842C2;
@@ -19,6 +19,7 @@
   --color-button-text: #FFFFFF;
   --color-box-base: #FFFFFF;
   --color-box-footer: #FAFAFC;
+  --color-sidebar: #111111;
 }
 
 * {

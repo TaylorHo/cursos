@@ -10,8 +10,9 @@
   background: var(--color-primary);
 }
 
-.hero-image {
+.hero-image-ser-aluno {
   width: 100%;
+  display: none;
 }
 
 .logo-container {
@@ -20,7 +21,7 @@
 }
 
 .logo-container h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   color: var(--color-title-in-primary);
 }
 
@@ -28,8 +29,9 @@
   font-weight: 500;
   font-size: 2.2rem;
   line-height: 4.6rem;
-  margin-top: 0.2rem;
+  margin-top: 6rem;
   margin-left: 8rem;
+  text-align: initial;
 }
 
 .buttons-container {
@@ -101,10 +103,11 @@
       text-align: initial;
       font-size: 3.2rem;
   }
-  .hero-image {
+  .hero-image-ser-aluno {
       grid-area: hero;
       justify-self: end;
       align-self: center;
+      display: block;
   }
   .buttons-container {
       grid-area: buttons;

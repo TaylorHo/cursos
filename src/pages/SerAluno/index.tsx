@@ -16,14 +16,14 @@ function SerAluno() {
             <div className="logo-container">
                 <h1>Benefícios</h1>
                 <ul>
-                  <li>Desafios</li>
+                  <li>Mais Desafios</li>
                   <li>Exercícios exclusivos</li>
                   <li>Dicas de quem trabalha na área</li>
                   <li>Esclarecimento de dúvidas 24/7</li>
                   <li>Aulas online quando quiser</li>
                 </ul>
             </div>
-            <img src={landingImg} alt="Plataforma de estudos." className="hero-image"/>
+            <img src={landingImg} alt="Plataforma de estudos." className="hero-image-ser-aluno"/>
             <div className="buttons-container">
                 <Link to="/" className="voltar">
                     <img src={iconeVoltar} alt="Estudar"/>

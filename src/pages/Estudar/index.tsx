@@ -1,5 +1,6 @@
 import React from 'react';
-import Sidebar from '../../components/Sidebar'
+import Sidebar from '../../components/Sidebar';
+import Board from '../../components/Board';
 
 // import { Link } from 'react-router-dom';
 
@@ -9,6 +10,7 @@ function Estudar() {
   return (
     <div id="all">
       <Sidebar />
+      <Board />
     </div>
   )
 }

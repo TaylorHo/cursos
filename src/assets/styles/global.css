@@ -20,6 +20,8 @@
   --color-box-base: #FFFFFF;
   --color-box-footer: #FAFAFC;
   --color-sidebar: #111111;
+  --color-card: #131224;
+  --color-card-header: #070514;
 }
 
 * {

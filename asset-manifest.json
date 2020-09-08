@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cursos/static/css/main.703585cd.chunk.css",
+    "main.js": "/cursos/static/js/main.3ffdfb19.chunk.js",
+    "main.js.map": "/cursos/static/js/main.3ffdfb19.chunk.js.map",
+    "runtime-main.js": "/cursos/static/js/runtime-main.309d0b3a.js",
+    "runtime-main.js.map": "/cursos/static/js/runtime-main.309d0b3a.js.map",
+    "static/js/2.be05d3b3.chunk.js": "/cursos/static/js/2.be05d3b3.chunk.js",
+    "static/js/2.be05d3b3.chunk.js.map": "/cursos/static/js/2.be05d3b3.chunk.js.map",
+    "index.html": "/cursos/index.html",
+    "precache-manifest.02cc3a535fb4132315e75c3162bee9c2.js": "/cursos/precache-manifest.02cc3a535fb4132315e75c3162bee9c2.js",
+    "service-worker.js": "/cursos/service-worker.js",
+    "static/css/main.703585cd.chunk.css.map": "/cursos/static/css/main.703585cd.chunk.css.map",
+    "static/js/2.be05d3b3.chunk.js.LICENSE.txt": "/cursos/static/js/2.be05d3b3.chunk.js.LICENSE.txt",
+    "static/media/abrir.svg": "/cursos/static/media/abrir.2be11b89.svg",
+    "static/media/back.svg": "/cursos/static/media/back.34ad5712.svg",
+    "static/media/give-classes.svg": "/cursos/static/media/give-classes.427c086e.svg",
+    "static/media/landing.svg": "/cursos/static/media/landing.3046e91c.svg",
+    "static/media/study.svg": "/cursos/static/media/study.6bf8c9a2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.309d0b3a.js",
+    "static/js/2.be05d3b3.chunk.js",
+    "static/css/main.703585cd.chunk.css",
+    "static/js/main.3ffdfb19.chunk.js"
+  ]
+}

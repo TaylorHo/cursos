@@ -17,7 +17,7 @@ function Card() {
             <div className="footer">
                 <div className="botao-seguir">
                     <button className="seguir">
-                        <i className="fa fa-arrow-right"></i>
+                        <i></i>
                     </button>
                 </div>
             </div>

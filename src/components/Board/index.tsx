@@ -5,7 +5,7 @@ import './styles.css';
 
 function Board() {
     return (
-        <Card />
+        <div></div>
     )
 }
 

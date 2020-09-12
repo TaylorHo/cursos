@@ -6,8 +6,8 @@
   justify-content: center;
   align-items: center;
 
-  color: var(--color-text-in-primary);
-  background: var(--color-primary);
+  color: var(--color-text-lighter);
+  background: var(--color-background);
 }
 
 .hero-image-ser-aluno {
@@ -22,7 +22,7 @@
 
 .logo-container h1 {
   font-size: 6rem;
-  color: var(--color-title-in-primary);
+  color: var(--color-title);
 }
 
 .logo-container ul {
@@ -51,9 +51,9 @@
   justify-content: center;
 
   text-decoration: none;
-  color: var(--color-button-text);
+  color: var(--color-title);
 
-  transition: background-color 0.2s;
+  transition: box-shadow 0.2s;
 }
 
 .buttons-container a:first-child {
@@ -66,19 +66,21 @@
 }
 
 .buttons-container a.voltar {
-  background: rgba(0,0,0,0);
+  background: transparent;
 }
 
 .buttons-container a.voltar:hover {
-  background: rgba(0,0,0,0);
+  background: transparent;
 }
 
 .buttons-container a.ser-aluno {
-  background: var(--color-secundary);
+  background: linear-gradient(90deg, var(--color-button-purple-secondary) 0%, var(--color-button-purple-primary) 100%);
 }
 
 .buttons-container a.ser-aluno:hover {
-  background: var(--color-secundary-dark);
+  box-shadow: 0 0 1em var(--color-purple-base-hover);
+  box-shadow: 0 0 1em var(--color-purple-base-hover);
+  box-shadow: 0 0 1em var(--color-purple-base-hover);
 }
 
 @media (min-width: 1100px){

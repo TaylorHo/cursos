@@ -1,27 +1,31 @@
 :root {
   font-size: 60%;
 
-  --color-background: #F0F0F7;
-  --color-primary-lighter: #00a8eb;
-  --color-primary-light: #01bddf;
-  --color-primary: #1C1B29;
-  --color-primary-dark: #774DD6;
-  --color-primary-darker: #6842C2;
-  --color-secundary: #7289da;
-  --color-secundary-dark: #8ea1e1;
-  --color-title-in-primary: #FFFFFF;
-  --color-text-in-primary: #B9BBBE;
-  --color-text-title: #32264D;
-  --color-text-complement: #9C98A6;
-  --color-text-base: #6A6180;
-  --color-line-in-white: #E6E6F0;
-  --color-input-background: #F8F8FC;
-  --color-button-text: #FFFFFF;
-  --color-box-base: #FFFFFF;
-  --color-box-footer: #FAFAFC;
-  --color-sidebar: #111111;
-  --color-card: #131224;
-  --color-card-header: #070514;
+  --color-background: #11162A;
+  --color-background-top: #172144;
+  --color-background-more-top: #2F3857;
+  --color-gray-selectors: #242633;
+
+  --color-button-purple-primary: #FB0196;
+  --color-button-purple-secondary: #8216C4;
+
+  --color-button-cyan-primary: #42DCE8;
+  --color-button-cyan-secondary: #7E87EE;
+
+  --color-button-orange-primary: #F68F70;
+  --color-button-orange-secondary: #F86CA8;
+
+  --color-title: #ffffff;
+  --color-text-lighter: #b6b3bd;
+  --color-text-darker: #262A45;
+
+  --color-pink-base: #E006A5;
+  --color-purple-base: #9614D6;
+  --color-cyan-base: #6FBEFF;
+
+  --color-pink-base-hover: #E006A566;
+  --color-purple-base-hover: #9614D680;
+  --color-cyan-base-hover: #6FBEFF66;
 }
 
 * {
@@ -46,7 +50,7 @@ body {
 
 body, input, button, textarea {
   font: 500 1.6rem Poppins;
-  color: var(--color-text-base);
+  color: var(--color-title);
 }
 
 .container {

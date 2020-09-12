@@ -1,9 +1,6 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-.fa-2x {
-font-size: 2em;
-}
-.fa {
+i {
 position: relative;
 display: table-cell;
 width: 85px;
@@ -20,8 +17,8 @@ overflow:visible;
 }
 
 .main-menu {
-background:var(--color-sidebar);
-border-right:5px solid var(--color-primary);
+background:var(--color-background-top);
+border-right:5px solid var(--color-background);
 border-top-right-radius: 18px;
 border-bottom-right-radius: 18px;
 position:absolute;
@@ -31,8 +28,8 @@ height:100%;
 left:0;
 width:75px;
 overflow:hidden;
--webkit-transition:width 0.1s linear;
-transition:width 0.1s linear;
+-webkit-transition:width 0.1s ease;
+transition:width 0.1s ease;
 z-index:1000;
 }
 
@@ -54,8 +51,8 @@ border-spacing:0;
 color: #fff;
 font-size: 16px;
 text-decoration:none;
--webkit-transition:all .2s linear;
-transition:all .2s linear;
+-webkit-transition:all .2s ease;
+transition:all .2s ease;
 }
 
 .main-menu .nav-icon {
@@ -109,5 +106,6 @@ padding:0;
 }
 .main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
 color:#fff;
-background-color:var(--color-primary-darker);
+background: linear-gradient(90deg, var(--color-button-purple-secondary) 0%, var(--color-button-purple-primary) 100%);
+box-shadow: 0 0 1em var(--color-purple-base-hover);
 }

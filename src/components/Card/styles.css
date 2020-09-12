@@ -5,12 +5,12 @@
     text-align: center;
     margin-left: 75px;
     height: 200px;
-    background-color: var(--color-card);
+    background-color: var(--color-background-top);
     border-radius: 12px;
 }
 
 .header-line {
-    background-color: var(--color-card-header);
+    background-color: var(--color-background-more-top);
     height: 36px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
@@ -25,7 +25,7 @@
 .title-card {
     font: 500 4rem Poppins;
     margin-top: -68px;
-    color: var(--color-title-in-primary);
+    color: var(--color-title);
 }
 
 .footer {
@@ -41,9 +41,6 @@
     height: 56px;
     justify-self: end;
     margin-top: 56px;
-    background: #dfdfdf;
-    box-shadow: 0 0 6px var(--color-primary-darker);
-    transition: box-shadow 0.2s;
 }
 
 .seguir:hover {
